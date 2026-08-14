@@ -1,0 +1,52 @@
+/* ========================================
+   MRS WORKS
+   Common Styles
+======================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background: #f5f5f5;
+    color: #222;
+}
+
+/* ========================================
+   App
+======================================== */
+
+#app {
+    width: 100%;
+    max-width: 600px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* ========================================
+   Buttons
+======================================== */
+
+button {
+    cursor: pointer;
+}
+
+/* ========================================
+   Responsive
+======================================== */
+
+@media (max-width: 600px) {
+
+    #app {
+        padding: 15px;
+    }
+
+}
