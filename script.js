@@ -3,11 +3,6 @@
 // Main JavaScript
 // ========================================
 
-document.addEventListener("DOMContentLoaded", () => {
-    init();
-});
-
-
 // ========================================
 // Initialization
 // ========================================
@@ -17,3 +12,7 @@ function init() {
 
     // アプリの初期化処理
 }
+
+// 全アプリ要素は配置済み。広告、DOMContentLoaded、window.loadを待たない。
+// 必要な画像・音声等の準備は、上限と失敗時の案内をアプリごとに定める。
+init();
